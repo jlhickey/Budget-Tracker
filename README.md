@@ -37,8 +37,7 @@ MIT
 
 
 ## Mock Up   
-https://drive.google.com/file/d/1L9FLBPg1U56UQQun2ajfgq72sIwXXP5Y/view
-
+https://drive.google.com/file/d/1UJBS7mO9HSvD6zBUYhXzCrfXtgsKglqe/view
 
 ## Photos<br>
  https://github.com/jlhickey/Budget-Tracker/blob/main/screenshot.jpg
