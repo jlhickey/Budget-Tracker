@@ -1,4 +1,4 @@
-# Budget-Tracker
+# PWA Budget-Tracker
 
 ![GitHub license](https://img.shields.io/badge/Made%20by-%40jlhickey-orange)
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
@@ -30,7 +30,10 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 ## Installation
 The app used to run are
-*  
+*  MongoDB 
+*  NoSQL
+*  Heroku
+
 
 ## Liscence
 MIT
@@ -45,4 +48,4 @@ https://watch.screencastify.com/v/w1rCDlaSWTREFsgFvfcg
 
 - Project Repo https://github.com/jlhickey/Budget-Tracker
 - GitHub https://github.com/jlhickey
-- Heroku  
+- Heroku  https://get-it-done-budget.herokuapp.com/
