@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-{ useUnifiedTopology: true };
+
 const Schema = mongoose.Schema;
 
 const transactionSchema = new Schema(
