@@ -100,7 +100,7 @@ function sendTransaction(isAdding) {
   };
 
   // if subtracting funds, convert amount to negative number
-  try (!isAdding) {
+  if (!isAdding) {
     transaction.value *= -1;
   }
 
@@ -125,7 +125,7 @@ function sendTransaction(isAdding) {
     return response.json();
   })
   .then(data => {
-    try (data.errors) {
+    if (data.errors) {
       errorEl.textContent = "Missing Information";
     }
     else {
