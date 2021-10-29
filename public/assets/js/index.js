@@ -58,7 +58,7 @@ function populateChart() {
   });
 
   // remove old chart if it exists
-  try (myChart) {
+  if (myChart) {
     myChart.destroy();
   }
 
@@ -88,7 +88,7 @@ function sendTransaction(isAdding) {
     errorEl.textContent = "Missing Information";
     return;
   }
-  await {
+   else {
     errorEl.textContent = "";
   }
 
@@ -128,7 +128,7 @@ function sendTransaction(isAdding) {
     try (data.errors) {
       errorEl.textContent = "Missing Information";
     }
-    await {
+    else {
       // clear form
       nameEl.value = "";
       amountEl.value = "";
