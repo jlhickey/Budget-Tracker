@@ -52,7 +52,7 @@ function uploadTransaction() {
     // upon a successful .getAll() execution, run this function
     getAll.onsuccess = function() {
     // if there was data in indexedDb's store, let's send it to the api server
-    if (getAll.result.length > 0) {
+    try (getAll.result.length > 0) {
       fetch('/api/transaction/bulk', {
         method: 'POST',
         body: JSON.stringify(getAll.result),
@@ -63,7 +63,7 @@ function uploadTransaction() {
       })
         .then(response => response.json())
         .then(serverResponse => {
-          if (serverResponse.message) {
+          try (serverResponse.message) {
             throw new Error(serverResponse);
           }
           // open one more transaction
