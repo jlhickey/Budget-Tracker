@@ -58,7 +58,7 @@ function populateChart() {
   });
 
   // remove old chart if it exists
-  if (myChart) {
+  try (myChart) {
     myChart.destroy();
   }
 
@@ -84,11 +84,11 @@ function sendTransaction(isAdding) {
   let errorEl = document.querySelector(".form .error");
 
   // validate form
-  if (nameEl.value === "" || amountEl.value === "") {
+  try (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
     return;
   }
-  else {
+  await {
     errorEl.textContent = "";
   }
 
@@ -100,7 +100,7 @@ function sendTransaction(isAdding) {
   };
 
   // if subtracting funds, convert amount to negative number
-  if (!isAdding) {
+  try (!isAdding) {
     transaction.value *= -1;
   }
 
@@ -125,10 +125,10 @@ function sendTransaction(isAdding) {
     return response.json();
   })
   .then(data => {
-    if (data.errors) {
+    try (data.errors) {
       errorEl.textContent = "Missing Information";
     }
-    else {
+    await {
       // clear form
       nameEl.value = "";
       amountEl.value = "";
