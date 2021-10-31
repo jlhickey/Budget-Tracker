@@ -29,10 +29,14 @@ WHEN the user reestablishes an internet connection
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
 ## Installation
-The app used to run are
-*  MongoDB 
-*  NoSQL
-*  Heroku
+![Language](https://img.shields.io/badge/MongoDB-green.svg "Language Badge")
+![Language](https://img.shields.io/badge/Express-blue.svg "Language Badge")
+![Language](https://img.shields.io/badge/Node-orange.svg "Language Badge")
+![Language](https://img.shields.io/badge/CSS-purple.svg "Language Badge")
+![Language](https://img.shields.io/badge/HTML-red.svg "Language Badge")
+![Language](https://img.shields.io/badge/PWA-apps-green.svg "Language Badge")
+![Language](https://img.shields.io/badge/Mongoose-red.svg "Language Badge")
+
 
 
 ## Liscence
