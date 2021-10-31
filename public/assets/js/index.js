@@ -84,11 +84,11 @@ function sendTransaction(isAdding) {
   let errorEl = document.querySelector(".form .error");
 
   // validate form
-  try (nameEl.value === "" || amountEl.value === "") {
+  if (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
     return;
   }
-   else {
+  else {
     errorEl.textContent = "";
   }
 
