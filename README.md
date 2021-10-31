@@ -50,6 +50,6 @@ https://watch.screencastify.com/v/fxaDv04hzx57cMDfkl7b
   
 ## REPOSITORIES
 
-- Project Repo https://github.com/jlhickey/Budget-Tracker
+- Project Repo https://jlhickey.github.io/Budget-Tracker/
 - GitHub https://github.com/jlhickey
 - Heroku  https://get-it-done-budget.herokuapp.com/ 
